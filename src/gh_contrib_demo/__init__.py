@@ -1,2 +1,3 @@
-def hello() -> str:
-    return "Hello from gh-contrib-demo!"
+"""Scaffold package for GitHub contribution analysis library."""
+
+__version__ = "0.1.0"

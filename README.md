@@ -1,18 +1,19 @@
-# Project structure of `cli`
+# gh-contrib-demo
 
-The demo of initial structure of library for analyze GitHub contribution, for 2026 «ЦПМxЦУ» students.
+Very loose scaffold for a Python library around GitHub contribution analysis.
 
-Install environment, after cloning, with:
+There are intentionally almost no restrictions.
+Only one concrete example is kept: `Repo.from_json`.
+
+## Setup
 
 ```sh
 uv sync
-
 ```
 
-Look at the tests at `tests` directory and run with:
+## Run checks
 
 ```sh
 uv run pytest
+uv run ruff check .
 ```
-
-See the GitHub API doc on: <https://docs.github.com/en/rest>
